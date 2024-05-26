@@ -3,7 +3,7 @@ import openai
 import os
 
 # Setup OpenAI API Key
-openai.api_key = os.getenv("sk-proj-zVeLpzlE7e8tq8FZDD7nT3BlbkFJMKVeAeIwRIPf5L2rtcsA")
+openai.api_key = ("sk-proj-zVeLpzlE7e8tq8FZDD7nT3BlbkFJMKVeAeIwRIPf5L2rtcsA")
 
 # Function to generate text using GPT-3
 def generate_text(prompt):

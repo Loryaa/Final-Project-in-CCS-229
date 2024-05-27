@@ -36,8 +36,3 @@ def multi_level_prompting():
 if __name__ == "__main__":
   multi_level_prompting()
 
-
-# Streamlit App Execution
-if __name__ == "__main__":
-    multi_level_prompting()
-

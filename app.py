@@ -2,7 +2,7 @@ import streamlit as st
 from gemini import generate_text
 
 # Initialize Gemini Client
-client = Gemini(api_key=gemini_api_key)
+#client = Gemini(api_key=gemini_api_key)
 
 # Function to generate text using Gemini
 #def generate_text(prompt):

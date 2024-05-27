@@ -5,12 +5,12 @@ from gemini import generate_text
 client = Gemini(api_key=gemini_api_key)
 
 # Function to generate text using Gemini
-def generate_text(prompt):
-  response = client.text_generation(
-      prompt=prompt,
-      max_tokens=10,
-  )
-  return response.choices[0].text.strip()
+#def generate_text(prompt):
+  #response = client.text_generation(
+     # prompt=prompt,
+     # max_tokens=10,
+ # )
+ # return response.choices[0].text.strip()
 
 # Multi-Level Prompting Logic
 def multi_level_prompting():

@@ -14,7 +14,7 @@ def generate_text(prompt):
 
 # Multi-Level Prompting Logic
 def multi_level_prompting():
-  st.title("Multi-Level Prompting System")
+  st.title("Story Generator")
   
   # Level 1 Prompt
   genre = st.selectbox("Choose a genre:", ["Fantasy", "Science Fiction", "Mystery", "Romance"])
